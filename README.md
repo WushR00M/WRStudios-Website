@@ -1,5 +1,1 @@
-# WushR00M Studios Official Website
-
-## License
-
-MIT
+if you're reading this, you should buy Sunrise
