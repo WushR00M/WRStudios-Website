@@ -1,9 +1,116 @@
+<!doctype html>
 <html>
-  <title>WushR00M Studios</title>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>WushR00M Studios</title>
+    <meta name="description" content="We're WushR00M Studios!">
+    <meta name="author" content="WushR00M Studios">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
   <body>
-    <h1>Welcome!</h1>
-    <p>You've reached WushR00M Studios' website! Sorry to say however, the website is undergoing HUGE changes, so don't expect much for now.</p>\
-    <br>
-    <p>Thanks and see you in 2025!</p>
+
+    <header id="header">
+      <img src="WushR00MStudiosLogo.png">
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#store">store</a></li>
+        <li><a href="https://ryjm.wushroomstudios.com/">ryjmtracker</a></li>
+        <li><a href="https://www.wushroomstudios.com/IsMyDeviceModdable">ismydevicemoddable</a></li>
+        <li><a href="#contact">about</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>hai :3</h2>
+            <p>
+              We are WushR00M Studios, an indie development studio focused on animation, multiplayer games such as Sunrise, and other miscellanous projects.
+            </p>
+          </div>
+          
+          <div id="store" class="content-region hide">
+            <h2>Store</h2>
+            <ul>
+            <li>
+            	<a href="./store/sunrise.html">
+            	<p>Sunrise</p>
+            		<img src="sunrise_logo.png" alt="Sunrise - Free" style="width: 200px; height: 200px; object-fit: cover;">
+            	</a>
+            </li>
+            <li>
+            	<a href="./store/pspcraft.html">
+            	<p>PSPCraft</p>
+            		<img src="pspcraft.jpg" alt="PSPCraft - Coming Soon" style="width: 200px; height: 200px; object-fit: cover;">
+            	</a>
+            </li>
+            <li>
+            	<a href="./store/dlc/sunriseost.html">
+            	<p>Sunrise: Official Soundtrack</p>
+            		<img src="sunrise_audio.png" alt="Sunrise: Official Soundtrack - Coming Soon" style="width: 200px; height: 200px; object-fit: cover;">
+            	</a>
+            </li>
+            <li>
+            	<a href="./store/sscr.html">
+            	<p>Sonic Screensaver Redone</p>
+            		<img src="sscr.png" alt="Sonic the Screensaver Redone - Free" style="width: 200px; height: 200px; object-fit: cover;">
+            	</a>
+            </li>
+            <ul>
+          </div>
+          
+          <div id="developers" class="content-region hide">
+            <h2>test</h2>
+            	<p>
+            	test
+            	</p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Important Information</h2>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      <ul>
+            <li>
+            	<a href="tos.html">Terms of Service</a>
+            </li>
+            <br>
+            <li>
+            	<a href="privacy.html">Privacy Policy</a>
+            </li>
+      </ul>
+      <p>© WushR00M Studios: 2025. All rights reserved. Sonic the Hedgehog is property of SEGA Enterprises and Sonic Team. Minecraft is property of Microsoft, Xbox Game Studios, and Mojang Studios.</p>
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
   </body>
 </html>
